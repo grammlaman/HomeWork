@@ -1,0 +1,7 @@
+Flags.prototype.exitGame = function (){
+	if(this.step == -1){
+		return true;
+	}	
+	return false;
+}	
+//Это функция выхода из игры, она завершает игру получив значение "-1" в поле ввода количества флажков.
