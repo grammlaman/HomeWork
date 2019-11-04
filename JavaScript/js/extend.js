@@ -28,10 +28,9 @@ class Father extends GrandFather{
 class Son extends Father{
   constructor(params){
     super(params);
+    this.children = 0;
+  }
+  addChild(){
+    this.children++;
   }
 }
-let vasya = new Son();
-let vitya = new Son();
-let petya = new Father();
-let kolya = new Father();
-let ivan = new GrandFather();
